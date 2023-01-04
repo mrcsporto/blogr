@@ -2,7 +2,7 @@ import "./styles.css";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg align-content-start flex-wrap align-content-between p-4">
+    <nav className="navbar navbar-expand-lg flex-wrap align-content-between p-4 mb-5">
       <div className="bg-pattern"></div>
         <div className="container-fluid align-items-baseline col-10">
           <a className="navbar-brand me-5" href="/#">Blogr</a>
