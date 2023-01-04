@@ -1,3 +1,38 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+  background-color: var(--Orange);
+  background-image: linear-gradient(130deg, #ff8d72 20%, #ff585e 70%);
+  height: 35rem;
+  border-bottom-left-radius: 5rem;
+  z-index: 1;
+  overflow: hidden;;
+}
+
+.navbar-brand {
+  color: var(--White);
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.bg-pattern {
+  background-image: url(/src/components/Header/bg-pattern-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  left: -20rem;
+  width: 180rem;
+  height: 150%;
+  position: absolute;
+  z-index: -1;
+}
+
 .btn-primary {
   font-weight: 500;
   font-family: 'Ubuntu', sans-serif;
@@ -7,6 +42,7 @@
   font-size: 1rem;
   width: 8.25rem;
   border-radius: 2rem;
+  padding: 5rem 0;
 }
 
 .btn-primary:hover {
@@ -23,6 +59,58 @@
   box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.1);
 }
 
-nav {
-  background-color: hsl(353, 100%, 62%);
+.btn-outline-primary {
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+  color: var(--White);
+  border-color: var(--White) !important;
+  font-size: 1rem;
+  width: 8.25rem;
+  border-radius: 2rem;
+  padding: 5rem 0;
+}
+
+.btn-outline-primary:hover {
+  background: var(--White);
+  color: var(--Light-red);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid transparent !important;
+}
+
+.btn-outline-primary:active {
+  color: var(--White) !important;
+  background-color: var(--Very-light-red) !important;
+  border: 1px solid transparent !important;
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-link {
+  text-decoration: none !important;
+  color: var(--White) !important;
+}
+
+.dropdown-toggle-custom::after {
+  content: url("icon-arrow-light.svg") !important;
+  margin-left: 0.5rem;
+ }
+
+ .dropdown-item {
+  padding: 0.5rem 1.25rem;
+  font-size: 14px;
+ }
+
+ .dropdown-item:focus, .dropdown-item:hover {
+  font-weight: 700;
+  background-color: transparent;
+}
+
+.title { 
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.banner-content {
+  height: 40%;
+  margin-bottom: 5em;
 }
