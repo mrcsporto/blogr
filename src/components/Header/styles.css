@@ -18,7 +18,8 @@ nav {
   font-weight: 500;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover,
+.navbar-brand:focus {
   color: var(--White);
 }
 
