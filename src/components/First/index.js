@@ -1,6 +1,6 @@
 import "./styles.css";
 
-const Intro = () => {
+const First = () => {
   return (
     <div className="d-flex flex-column align-items-center design-section">
       <h2 className="title fs-4 mt-5">Designed for the future</h2>
@@ -30,4 +30,4 @@ const Intro = () => {
   )
 }
 
-export default Intro;
+export default First;
