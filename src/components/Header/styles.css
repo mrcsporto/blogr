@@ -8,7 +8,8 @@ nav {
   height: 35rem;
   border-bottom-left-radius: 5rem;
   z-index: 1;
-  overflow: hidden;;
+  overflow: hidden;
+  ;
 }
 
 .navbar-brand {
@@ -93,20 +94,22 @@ nav {
 .dropdown-toggle-custom::after {
   content: url("icon-arrow-light.svg") !important;
   margin-left: 0.5rem;
- }
+}
 
- .dropdown-item {
+.dropdown-item {
   padding: 0.5rem 1.25rem;
   font-size: 14px;
- }
+}
 
- .dropdown-item:focus, .dropdown-item:hover {
+.dropdown-item:focus,
+.dropdown-item:hover {
   font-weight: 700;
   background-color: transparent;
 }
 
-.title { 
-  font-size: 3.5rem;
+.banner-content .title {
+  margin-bottom: 0rem;
+  font-size: 3rem;
   font-weight: 300;
 }
 
