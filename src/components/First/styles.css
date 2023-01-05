@@ -19,9 +19,13 @@
   left: 25%;
 }
 
+.card {
+  padding-left: 9.5rem;
+}
+
 .card-text {
   color: var(--Very-dark-grayish-blue);
-  font-size: 0.80rem;
+  font-size: 0.85rem;
   line-height: 2;
-  padding-right: 3.5rem
+  padding-right: 5rem;
 }
