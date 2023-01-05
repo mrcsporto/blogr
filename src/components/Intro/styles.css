@@ -1,15 +1,27 @@
-.subtitle {
-  font-weight: 300;
-  font-family: 'Ubuntu';
+.design-section .title {
+  margin-bottom: -4rem;
+}
+
+.title,
+.subtitle,
+.card-title {
+  color: var(--Very-dark-blue);
 }
 
 .illustration {
- background-image: url(/src/components/Intro/illustration-editor-desktop.svg);
- background-repeat: no-repeat;
- background-position: left;
- background-size: cover;
- position: relative;
- width: 100%;
- height: 43rem;
- left: 30%;
+  background-image: url(/src/components/Intro/illustration-editor-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 46rem;
+  left: 25%;
+}
+
+.card-text {
+  color: var(--Very-dark-grayish-blue);
+  font-size: 0.80rem;
+  line-height: 2;
+  padding-right: 3.5rem
 }
