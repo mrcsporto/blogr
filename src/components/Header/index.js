@@ -1,6 +1,12 @@
 import "./styles.css";
+import { useState } from "react";
 
 const Header = () => {
+  const [clicked, setClicked] = useState(false);
+  const handleClick = () => {
+    clicked ? setClicked('') : setClicked('toggle-down toggle-up nav-link me-md-3 text-white');
+  };
+
   return (
     <nav className="navbar navbar-expand-lg flex-wrap align-content-between p-4 mb-5">
       <div className="bg-pattern"></div>
@@ -12,7 +18,7 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle-custom me-md-4 text-white" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a className={clicked || 'toggle-down nav-link me-md-3 text-white'} onClick={handleClick} href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Product
                 </a>
                 <ul className="dropdown-menu shadow border-0">
@@ -25,7 +31,7 @@ const Header = () => {
               </li>
 
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle-custom me-md-4 text-white" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a className={clicked || 'toggle-down nav-link me-md-3 text-white'} onClick={handleClick} href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Company
                 </a>
                 <ul className="dropdown-menu shadow border-0">
@@ -37,7 +43,7 @@ const Header = () => {
               </li>
 
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle-custom text-white" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a className={clicked || 'toggle-down nav-link me-md-3 text-white'} onClick={handleClick} href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Connect
                 </a>
                 <ul className="dropdown-menu shadow border-0">
@@ -68,3 +74,5 @@ const Header = () => {
 }
 
 export default Header;
+
+

@@ -18,6 +18,10 @@ nav {
   font-weight: 500;
 }
 
+.navbar-brand:hover {
+  color: var(--White);
+}
+
 .nav-link:hover {
   text-decoration: underline;
 }
@@ -91,20 +95,27 @@ nav {
   color: var(--White) !important;
 }
 
-.dropdown-toggle-custom::after {
-  content: url("icon-arrow-light.svg") !important;
+.toggle-down::after {
+  content: url("icon-arrow-light-down.svg") !important;
+  margin-left: 0.5rem;
+}
+
+.toggle-up::after {
+  content: url("icon-arrow-light-up.svg") !important;
   margin-left: 0.5rem;
 }
 
 .dropdown-item {
   padding: 0.5rem 1.25rem;
   font-size: 14px;
+  color: var(--Very-dark-grayish-blue);
 }
 
 .dropdown-item:focus,
 .dropdown-item:hover {
   font-weight: 700;
   background-color: transparent;
+  color: var(--Very-dark-grayish-blue);
 }
 
 .banner-content .title {
