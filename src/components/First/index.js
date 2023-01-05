@@ -26,7 +26,6 @@ const First = () => {
         </div>
       </div>
     </div>
-
   )
 }
 
