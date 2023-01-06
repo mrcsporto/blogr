@@ -39,3 +39,8 @@
  .bg-container .card-text  {
   color: var(--Grayish-blue);
  }
+
+ .container .card {
+  padding-left: 9.5rem;
+  background-color: transparent;
+ }

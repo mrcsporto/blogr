@@ -98,11 +98,6 @@ main {
   color: var(--White) !important;
 }
 
-.card {
-  padding-left: 9.5rem;
-  background-color: transparent;
-}
-
 .card-text {
   color: var(--Very-dark-grayish-blue);
   font-size: 0.75rem;
