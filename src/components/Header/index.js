@@ -2,17 +2,15 @@ import "./styles.css";
 
 const Header = () => {
   const handleClick = (element) => {
-    if (element.currentTarget) {
-      element.currentTarget.classList.toggle('toggle-up')
-    } else {
-      element.currentTarget.classList.toggle('toggle-down');
-    }
+    element.currentTarget.classList.toggle('toggle-up')
+    element.currentTarget.classList.toggle('show')
   };
+
   return (
     <nav className="navbar navbar-expand-lg flex-wrap align-content-between p-4 mb-5">
       <div className="bg-pattern"></div>
       <div className="container-fluid align-items-baseline col-10">
-        <a className="navbar-brand me-5" href="/#">Blogr</a>
+        <a className="brand me-4 mt-2" href="/#" alt="Logo"> </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

@@ -12,15 +12,13 @@ nav {
   ;
 }
 
-.navbar-brand {
-  color: var(--White);
-  font-size: 2.5rem;
-  font-weight: 500;
-}
-
-.navbar-brand:hover,
-.navbar-brand:focus {
-  color: var(--White);
+.brand {
+  background-image: url(logo.svg);
+  background-repeat: no-repeat;
+  width: 101px;
+  height: 40px;
+  position: relative;
+  top: 10px;
 }
 
 .nav-link:hover {
