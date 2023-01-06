@@ -1,0 +1,41 @@
+.bg-container {
+  background-image: linear-gradient(45deg,hsl(237, 17%, 21%) 10%,  hsl(237, 23%, 32%) 80%);
+  height: 20rem;
+  border-radius: 0 5rem 0 5rem;
+  overflow: hidden;
+}
+
+.bg-pattern-circles {
+  background-image: url(bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  position: relative;
+  width: 55rem;
+  height: 25rem;
+  right: 13rem;
+}
+
+.illustration-phones {
+  background-image: url(illustration-phones.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 460px;
+  width: 100%;
+  position: relative;
+  top: -3.5rem;
+}
+ .container {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  margin-left: 7rem;
+ }
+
+ .bg-container .card-title {
+  color: var(--White);
+ }
+
+ .bg-container .card-text  {
+  color: var(--Grayish-blue);
+ }

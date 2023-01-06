@@ -2,7 +2,7 @@ import "./styles.css";
 
 const First = () => {
   return (
-    <div className="d-flex flex-column align-items-center design-section">
+    <div className="d-flex flex-column align-items-center design-section mb-5">
       <h2 className="title fs-4 mt-5">Designed for the future</h2>
       <div className="d-flex flex-wrap flex-row align-items-center">
         <div className="col-sm-6">
@@ -22,7 +22,7 @@ const First = () => {
           </div>
         </div>
         <div className="col-sm-6">
-          <div className="illustration"></div>
+          <div className="illustration-editor"></div>
         </div>
       </div>
     </div>
