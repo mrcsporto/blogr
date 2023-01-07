@@ -1,0 +1,16 @@
+.bg-footer {
+  background-color: var(--Very-dark-black-blue);
+  height: 20rem;
+  border-radius: 0 5rem 0 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.brand {
+  background-image: url(logo.svg);
+  background-repeat: no-repeat;
+  width: 101px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+}
