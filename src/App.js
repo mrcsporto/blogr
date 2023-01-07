@@ -9,14 +9,11 @@ const App = () => {
     <>
       <Header />
       <main className="overflow-hidden">
-       <First />
-       <Middle />
-       <Last />
+        <First />
+        <Middle />
+        <Last />
+        <Footer />
       </main>
-      <Footer />
-    
-      
-      
     </>
   );
 }

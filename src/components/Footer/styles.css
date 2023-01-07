@@ -6,11 +6,18 @@
   z-index: -1;
 }
 
-.brand {
-  background-image: url(logo.svg);
-  background-repeat: no-repeat;
-  width: 101px;
-  height: 40px;
-  position: relative;
-  top: 10px;
+footer ul.list-group li {
+  font-size: 0.75rem;
+  list-style-type: none;
+  line-height: 2.5; 
+}
+
+li a {
+  color: var(--Grayish-blue);
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: var(--Grayish-blue);
 }
