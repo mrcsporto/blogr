@@ -38,7 +38,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Bootstrap](https://getbootstrap.com/) - React framework
+- [Bootstrap](https://getbootstrap.com/) - Style framework
 
 ## Author
 
