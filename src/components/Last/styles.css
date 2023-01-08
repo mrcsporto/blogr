@@ -4,13 +4,26 @@
   background-position: right;
   background-size: cover;
   position: relative;
-  width: 100%;
+  width: 43rem;
   height: 46rem;
-  right: 5rem;
+  /* right: 12rem; */
+}
+
+.laptop-section {
+  margin: auto;
+  display: flex;
+  position: relative;
+  z-index: 9999;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: auto;
 }
 
 .laptop-section .card {
-  padding-left: 7rem;
-  padding-right: 6.5rem;
+  padding-right: 19rem;
   background-color: transparent;
 }
+
+

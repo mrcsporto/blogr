@@ -5,7 +5,10 @@ const Middle = () => {
     <>
       <div className="bg-container">
         <div className="container">
-          <div className="illustration-phones"></div>
+          <div className="illustration-phones">
+            {/* <div className="bg-pattern-circles"></div> */}
+
+          </div>
           <div className="card border-0 d-flex flex-column pe-5">
             <div className="card-body mb-3 mt-5 pe-5">
               <div className="card-title fs-3">State of the Art Infrastructure</div>
@@ -14,7 +17,6 @@ const Middle = () => {
             </div>
           </div>
         </div>
-        <div className="bg-pattern-circles"></div>
       </div>
     </>
   )
