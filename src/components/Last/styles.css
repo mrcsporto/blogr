@@ -1,0 +1,29 @@
+.illustration-laptop {
+  background-image: url(illustration-laptop-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  position: relative;
+  width: 43rem;
+  height: 46rem;
+  /* right: 12rem; */
+}
+
+.laptop-section {
+  margin: auto;
+  display: flex;
+  position: relative;
+  z-index: 9999;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.laptop-section .card {
+  padding-right: 19rem;
+  background-color: transparent;
+}
+
+
