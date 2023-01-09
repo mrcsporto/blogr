@@ -2,6 +2,7 @@
   background-image: linear-gradient(45deg,hsl(237, 17%, 21%) 10%,  hsl(237, 23%, 32%) 80%);
   height: 20rem;
   border-radius: 0 5rem;
+  position: relative;
 }
 
 .bg-pattern-circles {
@@ -9,10 +10,10 @@
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: cover;
-  position: relative;
+  position: absolute;
   width: 55rem;
   height: 25rem;
-  right: 13rem;
+  left: -12rem;
 }
 
 .illustration-phones {
@@ -23,12 +24,11 @@
   width: 100%;
   position: relative;
   top: -3.5rem;
-  z-index: 9999;
 }
+
  .container {
   display: flex;
   position: relative;
-  z-index: 9999;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
@@ -43,7 +43,6 @@
  }
 
  .container .card {
-  /* padding-left: 9.5rem; */
   background-color: transparent;
   padding: 0;
  }
