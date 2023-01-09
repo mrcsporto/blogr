@@ -10,10 +10,11 @@
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: cover;
-  position: absolute;
+  position: relative;
   width: 55rem;
   height: 25rem;
   left: -12rem;
+  z-index: 1;
 }
 
 .illustration-phones {
@@ -24,13 +25,13 @@
   width: 100%;
   position: relative;
   top: -3.5rem;
+  z-index: 2;
 }
 
  .container {
   display: flex;
   position: relative;
   flex-direction: row;
-  justify-content: space-evenly;
   width: 100%;
  }
 
@@ -45,4 +46,10 @@
  .container .card {
   background-color: transparent;
   padding: 0;
+ }
+
+ .bg-crop {
+  height: 20rem;
+   overflow: hidden;
+   position: absolute;
  }

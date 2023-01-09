@@ -3,8 +3,11 @@ import "./styles.css";
 const Middle = () => {
   return (
     <>
+          <div className="bg-crop">
+
+    <div className="bg-pattern-circles"></div>
+          </div>
       <div className="bg-container">
-        <div className="bg-pattern-circles"></div>
         <div className="container">
           <div className="illustration-phones"></div>
           <div className="card border-0 d-flex flex-column pe-5">

@@ -6,23 +6,21 @@
   position: relative;
   width: 43rem;
   height: 46rem;
-  /* right: 12rem; */
+  right: 2.5rem;
 }
 
 .laptop-section {
   margin: auto;
   display: flex;
   position: relative;
-  z-index: 9999;
-  flex-direction: row;
-  justify-content: space-evenly;
+  z-index: 1;
   align-items: center;
   width: 100%;
   margin: auto;
 }
 
 .laptop-section .card {
-  padding-right: 7rem;
+  padding-right: rem;
   background-color: transparent;
 }
 
