@@ -6,16 +6,20 @@ const Header = () => {
     element.currentTarget.classList.toggle('show')
   };
 
+  const handleToggle = (element) => {
+    element.currentTarget.classList.toggle('navbar-toggler-icon-close')
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg flex-wrap align-content-between p-4 mb-5">
+    <nav className="navbar navbar-expand-lg flex-wrap align-content-between p-lg-5 mb-5 " data-bs-theme="dark">
       <div className="bg-pattern"></div>
-      <div className="container-fluid align-items-baseline col-10">
+      <div className="container align-items-baseline col-10">
         <a className="brand me-4 mt-2" href="/#" alt="Logo"> </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon" onClick={handleToggle}></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav">
+        <div className="collapse navbar-collapse mt-5" id="navbarNavDropdown">
+          <ul className="navbar-nav shadow-sm-lg">
             <li className="nav-item dropdown">
               <a className='toggle-down nav-link me-md-3 text-white' onClick={handleClick} href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Product
@@ -53,20 +57,19 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="d-grid gap-2 d-md-flex justify-content-md-end">
+        <div className="d-grid gap-2 d-md-flex justify-content-md-end buttons">
           <button className="btn btn-link me-md-1" type="button">Login</button>
           <button className="btn btn-primary py-2" type="button">Sign Up</button>
         </div>
       </div>
-      <div className="container-fluid flex-column col-8 banner-content" >
-        <h1 className="title text-white">A modern publishing platform</h1>
-        <p className="fs-6 text-white">Grow your audience and build your online brand</p>
+      <div className="container-lg d-flex flex-column flex-wrap col-lg-8 col-sm-2 justify-content-evenly banner-content" >
+        <h1 className="title text-white px-5 text-center">A modern publishing platform</h1>
+        <p className="fs-6 text-white px-5 text-center">Grow your audience and build your online brand</p>
         <div className="m-2">
-          <button className="btn btn-primary py-2 me-md-3" type="button">Start For Free</button>
+          <button className="btn btn-primary py-2 me-3" type="button">Start For Free</button>
           <button className="btn btn-outline-primary py-2" type="button">Learn More</button>
         </div>
       </div>
-
     </nav>
 
   );
