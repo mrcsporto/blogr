@@ -1,4 +1,6 @@
 import "./styles.css";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const Header = () => {
   const handleClick = (element) => {
@@ -9,6 +11,28 @@ const Header = () => {
   const handleToggle = (element) => {
     element.currentTarget.classList.toggle('navbar-toggler-icon-close')
   };
+
+  const useWindowWide = (size) => {
+    const [width, setWidth] = useState(0)
+
+    useEffect(() => {
+      function handleResize() {
+        setWidth(window.innerWidth)
+      }
+
+      window.addEventListener("resize", handleResize)
+
+      handleResize()
+
+      return () => {
+        window.removeEventListener("resize", handleResize)
+      }
+    }, [setWidth])
+
+    return width
+  }
+
+  const wide = useWindowWide(400)
 
   return (
     <nav className="navbar navbar-expand-lg flex-wrap align-content-between p-lg-5 mb-5 " data-bs-theme="dark">
@@ -55,15 +79,27 @@ const Header = () => {
                 <li><a className="dropdown-item" href="/#">LinkedIn</a></li>
               </ul>
             </li>
+            <li>
+              <form>
+              {wide <= 500 ?
+
+                <div className="d-grid gap-2 d-md-flex justify-content-md-end buttons">
+                  <input className="btn btn-primary py-2" type="submit" value="Próxima"/>
+                  <button className="btn btn-link me-md-1" type="button">Login</button>
+                  <button className="btn btn-primary py-2" type="button">Sign Up</button>
+                </div> : ""}
+                </form>
+            </li>
           </ul>
         </div>
-        <div className="d-grid gap-2 d-md-flex justify-content-md-end buttons">
-          <button className="btn btn-link me-md-1" type="button">Login</button>
-          <button className="btn btn-primary py-2" type="button">Sign Up</button>
-        </div>
+        {wide <= 500 ? "" :
+          <div className="d-grid gap-2 d-md-flex justify-content-md-end buttons">
+            <button className="btn btn-link me-md-1" type="button">Login</button>
+            <button className="btn btn-primary py-2" type="button">Sign Up</button>
+          </div>}
       </div>
       <div className="container-lg d-flex flex-column flex-wrap col-lg-8 col-sm-2 justify-content-evenly banner-content" >
-        <h1 className="title text-white px-5 text-center">A modern publishing platform</h1>
+        <h1 className="title text-white px-5 mb-md-4 text-center">A modern publishing platform</h1>
         <p className="fs-6 text-white px-5 text-center">Grow your audience and build your online brand</p>
         <div className="m-2">
           <button className="btn btn-primary py-2 me-3" type="button">Start For Free</button>
