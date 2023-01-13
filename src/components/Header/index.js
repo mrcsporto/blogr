@@ -85,7 +85,7 @@ const Header = () => {
               {wide <= 500 ?
                 <div className="d-grid gap-2 d-md-flex justify-content-md-end justify-content-center buttons">
                   <button className="btn btn-link me-md-1 text-center" type="button">Login</button>
-                  <button className="btn btn-primary py-3 mb-3" type="button">Sign Up</button>
+                  <button className="btn btn-primary py-3 mb-4" type="button">Sign Up</button>
                 </div> : ""}
                 </form>
             </li>
