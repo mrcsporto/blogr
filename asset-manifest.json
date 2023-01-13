@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blogr/static/css/main.bbbda329.css",
-    "main.js": "/blogr/static/js/main.def3b82c.js",
+    "main.js": "/blogr/static/js/main.3d7b3806.js",
     "static/media/illustration-phones.svg": "/blogr/static/media/illustration-phones.fd23559f1d2f81f9e3f3.svg",
     "static/media/logo.svg": "/blogr/static/media/logo.1591bc20b914c098a9cd.svg",
     "static/media/illustration-laptop-mobile.svg": "/blogr/static/media/illustration-laptop-mobile.fe1ec0f05da01bb067fa.svg",
@@ -18,10 +18,10 @@
     "static/media/icon-arrow-light-down.svg": "/blogr/static/media/icon-arrow-light-down.9ba0f38e6df41815773e.svg",
     "static/media/icon-arrow-dark-down.svg": "/blogr/static/media/icon-arrow-dark-down.5215f8d979a83644d14e.svg",
     "main.bbbda329.css.map": "/blogr/static/css/main.bbbda329.css.map",
-    "main.def3b82c.js.map": "/blogr/static/js/main.def3b82c.js.map"
+    "main.3d7b3806.js.map": "/blogr/static/js/main.3d7b3806.js.map"
   },
   "entrypoints": [
     "static/css/main.bbbda329.css",
-    "static/js/main.def3b82c.js"
+    "static/js/main.3d7b3806.js"
   ]
 }
