@@ -21,3 +21,9 @@ li a:hover {
   text-decoration: underline;
   color: var(--Grayish-blue);
 }
+
+@media screen and (max-width:500px) {
+  .bg-footer {
+    height: 100%;
+  }
+}

@@ -107,19 +107,19 @@ nav {
     padding: 0;
   }
 
-  .nav-link {
+  nav .nav-link {
     color: var(--Very-dark-black-blue) !important;
     font-weight: 700;
     font-size: 1.25rem !important;
     ;
   }
 
-  .nav-link:focus {
+  nav .nav-link:focus {
     color: var(--Very-dark-grayish-blue) !important;
     font-weight: 700;
   }
 
-  .nav-link:hover {
+  nav .nav-link:hover {
     text-decoration: none;
   }
 

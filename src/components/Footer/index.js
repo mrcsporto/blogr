@@ -3,11 +3,11 @@ import "./styles.css";
 const Footer = () => {
   return (
     <>
-      <footer class="bg-footer mt-5 p-5 d-flex flex-row justify-content-evenly">
-        <h1 className="text-white ms-5">Blogr</h1>
-        <ul className="navbar-nav d-flex flex-row flex-grow-1 justify-content-evenly">
+      <footer class="bg-footer mt-5 p-5 d-sm-flex flex-sm-row flex-column justify-content-cente text-center text-sm-start">
+        <h1 className="text-white fs-1 ms-0 ms-md-5">Blogr</h1>
+        <ul className="navbar-nav d-sm-flex flex-sm-row  flex-column flex-grow-1 justify-content-evenly">
           <li className="nav-item">
-            <a className='nav-link text-white mb-3' href="/#">
+            <a className='nav-link text-white mb-3 mt-5 mt-sm-0' href="/#">
               Product
             </a>
             <ul className="list-group">
@@ -19,7 +19,7 @@ const Footer = () => {
             </ul>
           </li>
           <li className="nav-item">
-            <a className='nav-link text-white mb-3' href="/#">
+            <a className='nav-link text-white mb-3 mt-4 mt-sm-0' href="/#">
               Company
             </a>
             <ul className="list-group">
@@ -31,7 +31,7 @@ const Footer = () => {
           </li>
 
           <li className="nav-item">
-            <a className='nav-link text-white mb-3' href="/#">
+            <a className='nav-link text-white mb-3 mt-4 mt-sm-0' href="/#">
               Connect
             </a>
             <ul className="list-group">

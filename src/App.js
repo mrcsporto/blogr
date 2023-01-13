@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import First from "./components/First";
 import Middle from "./components/Middle";
 import Last from "./components/Last";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
         <First />
         <Middle />
         <Last />
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </>
   );
