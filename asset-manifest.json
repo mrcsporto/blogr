@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/blogr/static/css/main.11fe89d0.css",
-    "main.js": "/blogr/static/js/main.2e04bf3e.js",
+    "main.css": "/blogr/static/css/main.bbbda329.css",
+    "main.js": "/blogr/static/js/main.2dcbc9db.js",
     "static/media/illustration-phones.svg": "/blogr/static/media/illustration-phones.fd23559f1d2f81f9e3f3.svg",
     "static/media/logo.svg": "/blogr/static/media/logo.1591bc20b914c098a9cd.svg",
+    "static/media/illustration-laptop-mobile.svg": "/blogr/static/media/illustration-laptop-mobile.fe1ec0f05da01bb067fa.svg",
     "static/media/illustration-laptop-desktop.svg": "/blogr/static/media/illustration-laptop-desktop.799209c2628b1f244e15.svg",
     "static/media/illustration-editor-desktop.svg": "/blogr/static/media/illustration-editor-desktop.c6c8050aa4dcf0c64b44.svg",
+    "static/media/illustration-editor-mobile.svg": "/blogr/static/media/illustration-editor-mobile.b9c7941a96d06832fa27.svg",
     "static/media/bg-pattern-intro-desktop.svg": "/blogr/static/media/bg-pattern-intro-desktop.bf6b3e1b727eabeffdc5.svg",
     "index.html": "/blogr/index.html",
     "static/media/bg-pattern-circles.svg": "/blogr/static/media/bg-pattern-circles.bae804b8cc1519f26c94.svg",
+    "static/media/icon-close.svg": "/blogr/static/media/icon-close.c6580312401807bc9f98.svg",
     "static/media/icon-arrow-light-up.svg": "/blogr/static/media/icon-arrow-light-up.f2fe7306b837521c811e.svg",
+    "static/media/icon-arrow-dark-up.svg": "/blogr/static/media/icon-arrow-dark-up.a7da2654870a29e13f39.svg",
+    "static/media/icon-hamburger.svg": "/blogr/static/media/icon-hamburger.68867946847c3249542e.svg",
     "static/media/icon-arrow-light-down.svg": "/blogr/static/media/icon-arrow-light-down.9ba0f38e6df41815773e.svg",
-    "main.11fe89d0.css.map": "/blogr/static/css/main.11fe89d0.css.map",
-    "main.2e04bf3e.js.map": "/blogr/static/js/main.2e04bf3e.js.map"
+    "static/media/icon-arrow-dark-down.svg": "/blogr/static/media/icon-arrow-dark-down.5215f8d979a83644d14e.svg",
+    "main.bbbda329.css.map": "/blogr/static/css/main.bbbda329.css.map",
+    "main.2dcbc9db.js.map": "/blogr/static/js/main.2dcbc9db.js.map"
   },
   "entrypoints": [
-    "static/css/main.11fe89d0.css",
-    "static/js/main.2e04bf3e.js"
+    "static/css/main.bbbda329.css",
+    "static/js/main.2dcbc9db.js"
   ]
 }
