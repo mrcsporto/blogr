@@ -2,7 +2,7 @@ import "./styles.css";
 
 const Last = () => {
   return (
-    <div className="d-flex flex-column align-items-center  mt-5">
+    <div className="d-flex flex-column align-items-center mt-5">
       <div className="laptop-section mt-5">
         <div className="col-sm-6">
           <div className="illustration-laptop"></div>

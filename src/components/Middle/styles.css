@@ -1,5 +1,5 @@
 .bg-container {
-  background-image: linear-gradient(45deg,hsl(237, 17%, 21%) 10%,  hsl(237, 23%, 32%) 80%);
+  background-image: linear-gradient(45deg, hsl(237, 17%, 21%) 10%, hsl(237, 23%, 32%) 80%);
   height: 20rem;
   border-radius: 0 5rem;
   position: relative;
@@ -28,31 +28,31 @@
   z-index: 2;
 }
 
- .bg-container .card-title {
+.bg-container .card-title {
   color: var(--White);
- }
+}
 
- .bg-container .card-text  {
+.bg-container .card-text {
   color: var(--Grayish-blue);
- }
+}
 
- .container .middle-card {
+.container .middle-card {
   background-color: transparent;
   padding: 0;
- }
+}
 
- .bg-crop {
+.bg-crop {
   height: 20rem;
   position: absolute;
- }
+}
 
- @media screen and (max-width:500px) {
+@media screen and (max-width:500px) {
   .bg-crop {
     height: 20rem;
     position: relative;
-   }
+  }
 
-   .bg-pattern-circles {
+  .bg-pattern-circles {
     background-image: none;
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -64,7 +64,7 @@
     z-index: 1;
   }
 
-   .illustration-phones {
+  .illustration-phones {
     background-image: url(illustration-phones.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -77,20 +77,22 @@
 
   .bg-container {
     text-align: center;
-    height: 45rem;
+    height: 40rem;
     border-radius: 0 5rem;
-    
+
   }
 
   .middle-card {
-      top: -16rem;
-}
-.middle-card .card-title {
-      font-size: 3rem !important;
-}
-.middle-card .card-text {
-      font-size: 1.25rem !important;
-}
+    top: -16rem;
+  }
+
+  .middle-card .card-title {
+    font-size: 2.5em !important;
+  }
+
+  .middle-card .card-text {
+    font-size: 1em !important;
+  }
 
   .card-text {
     color: var(--Very-dark-grayish-blue);
@@ -100,4 +102,4 @@
     top: -11.5rem;
   }
 
- }
+}

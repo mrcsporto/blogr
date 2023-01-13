@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import First from "./components/First";
 import Middle from "./components/Middle";
-// import Last from "./components/Last";
+import Last from "./components/Last";
 // import Footer from "./components/Footer";
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <main className="overflow-hidden">
         <First />
         <Middle />
-        {/* <Last /> */}
+        <Last />
         {/* <Footer /> */}
       </main>
     </>

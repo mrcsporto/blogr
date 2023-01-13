@@ -23,4 +23,22 @@
   background-color: transparent;
 }
 
+@media screen and (max-width:500px) {
+  .illustration-laptop {
+    background-image: url(illustration-laptop-mobile.svg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 21rem;
+    right: 0;
+  }
 
+  .laptop-section {
+    flex-wrap: wrap;
+  }
+
+  .laptop-section .card {
+    padding: 1rem 3.5rem;
+    text-align: center;
+  }
+}
