@@ -63,7 +63,7 @@ nav {
 
 .banner-content {
   height: 40%;
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
 }
 
 .navbar-toggler {
@@ -89,7 +89,20 @@ nav {
   box-shadow: none;
 }
 
-@media screen and (max-width:440px) {
+@media screen and (max-width:500px) {
+  .bg-pattern {
+    background-image: url(bg-pattern-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: -15rem;
+    left: -35rem;
+    width: 115rem;
+    height: 70rem;
+    position: absolute;
+    z-index: -1;
+  }
+
   nav .container-fluid {
     padding: 0;
   }
@@ -114,9 +127,6 @@ nav {
     background-color: var(--White);
     border-radius: 0.5rem;
     text-align: center !important;
-  }
-
-  .navbar-collapse {
     position: absolute;
     width: 80%;
     margin-top: 5rem !important;
@@ -141,7 +151,8 @@ nav {
   }
 
   .banner-content {
-    height: 50%;
+    height: 55%;
+    margin-bottom: 7rem;
   }
 
   .banner-content .title {
@@ -160,6 +171,10 @@ nav {
   .toggle-up::after {
     content: url("icon-arrow-dark-up.svg") !important;
     margin-left: 0.5rem;
+  }
+
+  hr {
+    width: 80%;
   }
 
 

@@ -45,7 +45,7 @@ const Header = () => {
         <div className="collapse navbar-collapse mt-5" id="navbarNavDropdown">
           <ul className="navbar-nav shadow-sm-lg">
             <li className="nav-item dropdown">
-              <a className='toggle-down nav-link me-md-3 text-white' onClick={handleClick} href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className='toggle-down nav-link me-md-3 text-white mt-4 mt-md-0' onClick={handleClick} href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Product
               </a>
               <ul className="dropdown-menu shadow border-0">
@@ -80,13 +80,12 @@ const Header = () => {
               </ul>
             </li>
             <li>
+              <hr className="w-60 mx-auto"></hr>
               <form>
               {wide <= 500 ?
-
-                <div className="d-grid gap-2 d-md-flex justify-content-md-end buttons">
-                  <input className="btn btn-primary py-2" type="submit" value="Próxima"/>
-                  <button className="btn btn-link me-md-1" type="button">Login</button>
-                  <button className="btn btn-primary py-2" type="button">Sign Up</button>
+                <div className="d-grid gap-2 d-md-flex justify-content-md-end justify-content-center buttons">
+                  <button className="btn btn-link me-md-1 text-center" type="button">Login</button>
+                  <button className="btn btn-primary py-3 mb-3" type="button">Sign Up</button>
                 </div> : ""}
                 </form>
             </li>
@@ -98,8 +97,8 @@ const Header = () => {
             <button className="btn btn-primary py-2" type="button">Sign Up</button>
           </div>}
       </div>
-      <div className="container-lg d-flex flex-column flex-wrap col-lg-8 col-sm-2 justify-content-evenly banner-content" >
-        <h1 className="title text-white px-5 mb-md-4 text-center">A modern publishing platform</h1>
+      <div className="container d-flex flex-column flex-wrap col-lg-8 col justify-content-evenly banner-content" >
+        <h1 className="title text-white px-4 mx-1 mb-md-4 text-center">A modern publishing platform</h1>
         <p className="fs-6 text-white px-5 text-center">Grow your audience and build your online brand</p>
         <div className="m-2">
           <button className="btn btn-primary py-2 me-3" type="button">Start For Free</button>
