@@ -38,45 +38,45 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg flex-wrap align-content-between p-lg-5 mb-5 " data-bs-theme="dark">
       <div className="bg-pattern"></div>
       <div className="container align-items-baseline col-10">
-        <a className="brand me-4 mt-2" href="/#" alt="Logo"> </a>
+        <a className="brand me-4 mt-2" href="/" alt="Logo"> </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" onClick={handleToggle}></span>
         </button>
         <div className="collapse navbar-collapse mt-5" id="navbarNavDropdown">
           <ul className="navbar-nav shadow-sm-lg">
             <li className="nav-item dropdown">
-              <a className='toggle-down nav-link me-md-3 text-white mt-4 mt-md-0' onClick={handleClick} href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className='toggle-down nav-link me-md-3 text-white mt-4 mt-md-0' onClick={handleClick} href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Product
               </a>
               <ul className="dropdown-menu shadow border-0">
-                <li><a className="dropdown-item" href="/#">Overview</a></li>
-                <li><a className="dropdown-item" href="/#">Pricing</a></li>
-                <li><a className="dropdown-item" href="/#">Marketplace</a></li>
-                <li><a className="dropdown-item" href="/#">Features</a></li>
-                <li><a className="dropdown-item" href="/#">Integrations</a></li>
+                <li><a className="dropdown-item" href="/">Overview</a></li>
+                <li><a className="dropdown-item" href="/">Pricing</a></li>
+                <li><a className="dropdown-item" href="/">Marketplace</a></li>
+                <li><a className="dropdown-item" href="/">Features</a></li>
+                <li><a className="dropdown-item" href="/">Integrations</a></li>
               </ul>
             </li>
 
             <li className="nav-item dropdown">
-              <a className='toggle-down nav-link me-md-3 text-white' onClick={handleClick} href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className='toggle-down nav-link me-md-3 text-white' onClick={handleClick} href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Company
               </a>
               <ul className="dropdown-menu shadow border-0">
-                <li><a className="dropdown-item" href="/#">About</a></li>
-                <li><a className="dropdown-item" href="/#">Team</a></li>
-                <li><a className="dropdown-item" href="/#">Blog</a></li>
-                <li><a className="dropdown-item" href="/#">Careers</a></li>
+                <li><a className="dropdown-item" href="/">About</a></li>
+                <li><a className="dropdown-item" href="/">Team</a></li>
+                <li><a className="dropdown-item" href="/">Blog</a></li>
+                <li><a className="dropdown-item" href="/">Careers</a></li>
               </ul>
             </li>
 
             <li className="nav-item dropdown">
-              <a className='toggle-down nav-link me-md-3 text-white' onClick={handleClick} href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className='toggle-down nav-link me-md-3 text-white' onClick={handleClick} href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Connect
               </a>
               <ul className="dropdown-menu shadow border-0">
-                <li><a className="dropdown-item" href="/#">Contact</a></li>
-                <li><a className="dropdown-item" href="/#">Newsletter</a></li>
-                <li><a className="dropdown-item" href="/#">LinkedIn</a></li>
+                <li><a className="dropdown-item" href="/">Contact</a></li>
+                <li><a className="dropdown-item" href="/">Newsletter</a></li>
+                <li><a className="dropdown-item" href="/">LinkedIn</a></li>
               </ul>
             </li>
             <li>
