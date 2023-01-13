@@ -28,13 +28,6 @@
   z-index: 2;
 }
 
- .container {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  width: 100%;
- }
-
  .bg-container .card-title {
   color: var(--White);
  }
@@ -43,13 +36,68 @@
   color: var(--Grayish-blue);
  }
 
- .container .card {
+ .container .middle-card {
   background-color: transparent;
   padding: 0;
  }
 
  .bg-crop {
   height: 20rem;
-   overflow: hidden;
-   position: absolute;
+  position: absolute;
+ }
+
+ @media screen and (max-width:500px) {
+  .bg-crop {
+    height: 20rem;
+    position: relative;
+   }
+
+   .bg-pattern-circles {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    position: relative;
+    width: 55rem;
+    height: 25rem;
+    left: -12rem;
+    z-index: 1;
+  }
+
+   .illustration-phones {
+    background-image: url(illustration-phones.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 460px;
+    width: 100%;
+    position: relative;
+    top: -11.5rem;
+    z-index: 2;
+  }
+
+  .bg-container {
+    text-align: center;
+    height: 45rem;
+    border-radius: 0 5rem;
+    
+  }
+
+  .middle-card {
+      top: -16rem;
+}
+.middle-card .card-title {
+      font-size: 3rem !important;
+}
+.middle-card .card-text {
+      font-size: 1.25rem !important;
+}
+
+  .card-text {
+    color: var(--Very-dark-grayish-blue);
+    font-size: 0.75rem;
+    line-height: 2;
+    padding-right: 0;
+    top: -11.5rem;
+  }
+
  }
